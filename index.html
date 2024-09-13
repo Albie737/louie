@@ -8,14 +8,16 @@
   
   <body>
     
-    <h1>
-    Hi!
-    </h1>    
-
-    <p>
-    my name is louie
-    </p>
+    <button onclick="rickroll()">Click Me!</button>
+  
+    <iframe id="rickroll" style="display:none;"></iframe>
+    <script>
+      function rickroll() {
+        document.getElementById('rickroll').src = 'https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1';
+      }
+    </script>
     
   </body>
 
 </html>
+
